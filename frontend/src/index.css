@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #0f172a;
+  --card-bg: #1e293b;
+  --accent-blue: #38bdf8;
+  --accent-purple: #a855f7;
+  --text-white: #f8fafc;
+  --text-gray: #94a3b8;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg,#f8fafc,#eaf3ff);
+  color: #1e293b;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}   
+
+.glass-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg,#3b82f6,#2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
